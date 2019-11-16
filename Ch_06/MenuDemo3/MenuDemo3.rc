@@ -1,0 +1,128 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP " &File "
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            IDM_OPEN
+        MENUITEM "&Close...",                   IDM_CLOSE
+        MENUITEM "&Save...\tCtrl+S",            IDM_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Show shape",                 IDM_SHOW_SHAPE
+        MENUITEM "&Hide shape",                 IDM_HIDE_SHAPE
+    END
+    POPUP "&Draw shape"
+    BEGIN
+        POPUP "&Shape"
+        BEGIN
+            MENUITEM "&Rectangle\tF2",              ID_RECTANGLE
+            MENUITEM "Rhom&b\tF3",                  ID_RHOMB
+            MENUITEM "&Ellipse\tF4",                ID_ELLIPSE
+        END
+        POPUP "&Color"
+        BEGIN
+            MENUITEM "&Red\tCtrl+R",                ID_RED
+            MENUITEM "&Green\tCtrl+G",              ID_GREEN
+            MENUITEM "&Blue\tCtrl+B",               ID_BLUE
+            MENUITEM SEPARATOR
+            MENUITEM "&Dark\tF10",                  ID_DARK
+            MENUITEM "&Medium\tF11",                ID_MEDIUM
+            MENUITEM "&Light\tF12",                 ID_LIGHT
+        END
+    END
+    MENUITEM "&Increase!",                  IDM_RESIZE
+    MENUITEM "&About...",                   IDM_ABOUT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    "B",            ID_BLUE,                VIRTKEY, CONTROL, NOINVERT
+    "G",            ID_GREEN,               VIRTKEY, CONTROL, NOINVERT
+    "O",            IDM_OPEN,               VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_RED,                 VIRTKEY, CONTROL, NOINVERT
+    "S",            IDM_SAVE,               VIRTKEY, CONTROL, NOINVERT
+    VK_F10,         ID_DARK,                VIRTKEY, NOINVERT
+    VK_F11,         ID_MEDIUM,              VIRTKEY, NOINVERT
+    VK_F12,         ID_LIGHT,               VIRTKEY, NOINVERT
+    VK_F2,          ID_RECTANGLE,           VIRTKEY, NOINVERT
+    VK_F3,          ID_RHOMB,               VIRTKEY, NOINVERT
+    VK_F4,          ID_ELLIPSE,             VIRTKEY, NOINVERT
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,145 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Просмотр",                    IDM_VIEW
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VIEW DIALOG DISCARDABLE  0, 0, 390, 154
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,273,133,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,333,133,50,14
+    GROUPBOX        "",IDC_GROUP_0,7,2,376,124
+    LISTBOX         IDC_LIST1,13,24,227,68,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Добавить",IDC_REC_ADD,125,100,50,14
+    PUSHBUTTON      "Удалить",IDC_REC_DELETE,185,100,50,14
+    LTEXT           "Имя",IDC_STATIC,27,13,68,9
+    LTEXT           "Телефон",IDC_STATIC_PHONE,136,13,44,9
+    GROUPBOX        "Дополнительная информация",IDC_GROUP_1,249,20,126,95
+    LTEXT           "Адрес",IDC_STATIC_ADDR,257,32,52,9
+    EDITTEXT        IDC_INFO_ADDR,255,44,113,24,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_HSCROLL
+    LTEXT           "День рождения",IDC_STATIC_BDAY,256,77,93,9
+    EDITTEXT        IDC_INFO_BDAY,255,89,113,15,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_ADD_REC DIALOG DISCARDABLE  0, 0, 302, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ввод записи"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,246,82,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,244,59,50,14
+    RTEXT           "Имя",IDC_STATIC,8,9,56,8
+    EDITTEXT        IDC_INPUT_NAME,69,7,158,14,ES_AUTOHSCROLL
+    RTEXT           "Телефон",IDC_STATIC,8,31,56,8
+    EDITTEXT        IDC_INPUT_PHONE,69,29,158,14,ES_AUTOHSCROLL
+    RTEXT           "Адрес",IDC_STATIC,7,55,56,8
+    EDITTEXT        IDC_INPUT_ADDR,69,52,158,14,ES_AUTOHSCROLL
+    RTEXT           "День рождения",IDC_STATIC,7,74,56,8
+    EDITTEXT        IDC_INPUT_BDAY,69,72,158,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 383
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_ADD_REC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

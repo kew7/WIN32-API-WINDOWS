@@ -1,0 +1,154 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP " &File "
+    BEGIN
+        MENUITEM "&Open...",                    IDM_OPEN
+        MENUITEM "&Close...",                   IDM_CLOSE
+        MENUITEM "Sa&ve...",                    IDM_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Show shape",                 IDM_SHOW_SHAPE
+        MENUITEM "&Hide shape",                 IDM_HIDE_SHAPE
+    END
+    POPUP "&Draw shape"
+    BEGIN
+        POPUP "&Shape"
+        BEGIN
+            MENUITEM "&Rectangle",                  ID_RECTANGLE
+            MENUITEM "Rhom&b",                      ID_RHOMB
+            MENUITEM "&Ellipse",                    ID_ELLIPSE
+        END
+        POPUP "&Color"
+        BEGIN
+            MENUITEM "&Red",                        ID_RED
+            MENUITEM "&Green",                      ID_GREEN
+            MENUITEM "&Blue",                       ID_BLUE
+            MENUITEM SEPARATOR
+            MENUITEM "&Dark",                       ID_DARK
+            MENUITEM "&Medium",                     ID_MEDIUM
+            MENUITEM "&Light",                      ID_LIGHT
+        END
+    END
+    MENUITEM "&Increase!",                  IDM_RESIZE
+    MENUITEM "&About...",                   IDM_ABOUT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_RECTANGLE
+    BUTTON      ID_RHOMB
+    BUTTON      ID_ELLIPSE
+    BUTTON      ID_SEP
+    BUTTON      ID_RED
+    BUTTON      ID_GREEN
+    BUTTON      ID_BLUE
+    BUTTON      ID_SEP
+    BUTTON      ID_DARK
+    BUTTON      ID_MEDIUM
+    BUTTON      ID_LIGHT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP  DISCARDABLE     "toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_RECTANGLE            "Прямоугольник"
+    ID_RHOMB                "Ромб"
+    ID_ELLIPSE              "Эллипс"
+    ID_RED                  "Красная компонента цвета"
+    ID_GREEN                "Зеленая компонента цвета"
+    ID_BLUE                 "Синяя компонента цвета"
+    ID_DARK                 "Темный цвет"
+    ID_MEDIUM               "Средний цвет"
+    ID_LIGHT                "Светлый цвет"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
