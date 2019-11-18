@@ -29,11 +29,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 {
 	MSG msg;
 	KWnd mainWnd("CreateMyThreads", hInstance, nCmdShow, WndProc,
-		NULL, 100, 100, 400, 160);	
+				  NULL, 100, 100, 400, 160);	
 
 	while (GetMessage(&msg, NULL, 0, 0))  {
-		TranslateMessage(&msg);
-		DispatchMessage(&msg);
+		   TranslateMessage(&msg);
+		   DispatchMessage(&msg);
 	}
 	return msg.wParam;
 }
