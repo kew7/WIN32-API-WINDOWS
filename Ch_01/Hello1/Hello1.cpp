@@ -45,7 +45,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	// ѕоказываем наше окно
 	ShowWindow(hMainWnd, nCmdShow); 
-//	UpdateWindow(hMainWnd);
+	//UpdateWindow(hMainWnd);
 
 	// ¬ыполн€ем цикл обработки сообщений до закрыти€ приложени€
 	while (GetMessage(&msg, NULL, 0, 0))  {
@@ -68,9 +68,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 		hDC = BeginPaint(hWnd, &ps);
 
 		GetClientRect(hWnd, &rect);
-		DrawText(hDC, "Hello, World!", -1, &rect,
-			DT_SINGLELINE | DT_CENTER | DT_VCENTER );
-		
+		DrawText(hDC, "Hello, World!", -1, &rect, 
+				DT_SINGLELINE | DT_CENTER | DT_VCENTER );	
 		EndPaint(hWnd, &ps);
 		return 0;
 
