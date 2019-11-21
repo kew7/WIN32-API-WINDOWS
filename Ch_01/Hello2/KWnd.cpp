@@ -2,7 +2,7 @@
 // KWnd.cpp
 #include "KWnd.h"
 
-KWnd::KWnd(LPCTSTR windowName, HINSTANCE hInst, int cmdShow,			// конструктор 
+KWnd::KWnd(LPCTSTR windowName, HINSTANCE hInst, int cmdShow,			//реализация конструктора
 				   LRESULT (WINAPI *pWndProc)(HWND,UINT,WPARAM,LPARAM),
 				   LPCTSTR menuName, int x, int y, int width, int height,
 				   UINT classStyle, DWORD windowStyle, HWND hParent)
