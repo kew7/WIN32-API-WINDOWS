@@ -104,7 +104,6 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <OutputFile>.\Debug\DllResClient.exe</OutputFile>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;MyLib.h;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -152,6 +151,11 @@
     <ClInclude Include="MyLib.h" />
     <ClInclude Include="MyResEng.h" />
     <ClInclude Include="MyResRus.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyLib\MyLib.vcxproj">
+      <Project>{3cbe7030-960a-4bea-92e9-9054e3b8f853}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
