@@ -157,6 +157,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BounceBall", "Ch_12\BounceB
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BounceBallAdv", "Ch_12\BounceBallAdv\BounceBallAdv.vcxproj", "{60AFC33F-AF5A-4E5C-BF8D-4FC7C1BC9AF2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "МОИ ПРОЕКТЫ", "МОИ ПРОЕКТЫ", "{E1465C2D-6DB8-44DD-AD00-9942557950EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
