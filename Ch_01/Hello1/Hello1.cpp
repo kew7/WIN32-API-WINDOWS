@@ -32,10 +32,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	
 	// Создаем основное окно приложения
 	hMainWnd = CreateWindow( 
-		szClassName, "A Hello1 Application", WS_OVERLAPPEDWINDOW,
-		CW_USEDEFAULT, 0, CW_USEDEFAULT, 0,
-		(HWND)NULL, (HMENU)NULL,
-		(HINSTANCE)hInstance, NULL
+				szClassName, "A Hello1 Application", WS_OVERLAPPEDWINDOW,
+				CW_USEDEFAULT, 0, CW_USEDEFAULT, 0,
+				(HWND)NULL, (HMENU)NULL,
+				(HINSTANCE)hInstance, NULL
 	);
 	
 	if (!hMainWnd) {
